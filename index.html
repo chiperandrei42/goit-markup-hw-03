@@ -10,16 +10,22 @@
       rel="stylesheet"
     />
     <link href="css/styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
+    />
     <title>Studio</title>
   </head>
   <body>
     <!--Header-->
-    <header>
+    <div class="container">
+    <header class="global-header">
       <a class="link-class" href="index.html">
         <h1 class="logo">
           Web<span class="logo-secondary-color">Studio</span>
         </h1>
       </a>
+<div class="nav-container">
       <nav class="main-navigation">
         <ul class="list-class">
           <li><a class="link-class current" href="index.html">Studio</a></li>
@@ -28,6 +34,7 @@
         </ul>
       </nav>
       <section class="main-navigation">
+        <div class="contact-container">
         <ul class="list-class">
           <li>
             <a class="contact-link" href="mailto:info@devstudio.com"
@@ -40,19 +47,26 @@
             >
           </li>
         </ul>
+      </div>
+    </div>
       </section>
+      </div>
     </header>
     <!--Main-->
     <main>
+      <section class="effective-solutions-section">
       <section class="effective-solutions">
         <h2 class="effective-solutions-text">
           EFFECTIVE SOLUTIONS FOR YOUR BUSINESS
         </h2>
+        
         <button class="request-our-service" type="button">
           Request our service
         </button>
-      </section>
-      <div>
+        </section>
+        </section>
+        <div class="paragraph-container">
+        <div class="container">
         <ul class="list-class">
           <li>
             <p class="paragraph-text"><b>ATTENTION TO DETAILS</b></p>
@@ -83,10 +97,13 @@
             </p>
           </li>
         </ul>
+        </div>
       </div>
-      <section>
+      <section class="section">
+      <div class="container">
+      <section class="what-we-do-container"> 
         <h2 class="heading-section">What we do</h2>
-        <div>
+        <div class="what-we-do-images">
           <img
             src="./images/what-we-do-example-1.jpg"
             alt="person typing on the keyboard"
@@ -105,11 +122,15 @@
             width="370"
           />
         </div>
+        </div>
+        </section>
       </section>
-      <section>
-        <h2 class="heading-section">Our Team</h2>
-        <div>
-          <div>
+      <div class="our-team-color-block">
+      <div class="container">
+          <section class="section">
+        <h2 class="heading-section-our-team">Our Team</h2>
+        <div class="our-team-section">
+          <div class="our-team-cards">
             <img
               src="./images/product-designer.jpg"
               alt="product-designer-portrait"
@@ -117,9 +138,9 @@
             />
             <h4 class="primary-text">Christopher Walker</h4>
             <p class="secondary-text">Product Designer</p>
-          </div>
+            </div>
 
-          <div>
+          <div class="our-team-cards">
             <img
               src="./images/frontend-developer.jpg"
               alt="frontend-developer-portrait"
@@ -127,9 +148,9 @@
             />
             <h4 class="primary-text">Kylie Evans</h4>
             <p class="secondary-text">Frontend Developer</p>
-          </div>
+            </div>
 
-          <div>
+          <div class="our-team-cards">
             <img
               src="./images/marketing-person.jpg"
               alt="marketing-person"
@@ -137,9 +158,9 @@
             />
             <h4 class="primary-text">Ryan Harris</h4>
             <p class="secondary-text">Marketing</p>
-          </div>
+            </div>
 
-          <div>
+          <div class="our-team-cards">
             <img
               src="./images/ui-designer.jpg"
               alt="ui-designer-portrait"
@@ -147,16 +168,20 @@
             />
             <h4 class="primary-text">Tyler Moore</h4>
             <p class="secondary-text">UI Designer</p>
+            </div>
           </div>
-        </div>
-      </section>
+          </div>
+        </section>
     </main>
     <!--Footer-->
     <footer>
       <section class="footer-section">
+        <div class="container">
+          <div class="logo-container-class">
         <a class="link-class" href="index.html">
           <h2 class="logo">Web<span class="logo-footer-color">Studio</span></h2>
         </a>
+        </div>
         <address class="footer-contact">
           <ul class="list-class">
             <li class="physical-address">695 Park Ave, NY 10065, USA</li>
@@ -172,6 +197,7 @@
             </li>
           </ul>
         </address>
+        </div>
       </section>
     </footer>
   </body>
