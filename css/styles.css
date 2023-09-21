@@ -345,6 +345,10 @@ body {
     padding-top: 6px;
 }
 
+.button:hover {
+    color:white;
+}
+
 .projects-grid {
     display:flex;
     flex-wrap: wrap;
