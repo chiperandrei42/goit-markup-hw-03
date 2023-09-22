@@ -69,11 +69,12 @@ height: auto;
 }
 
 .button:active {
-    background-color: #2175F3;
+    background-color: var(--text-hover-color);
 }
 
 .button:focus {
-    background-color: #1EA3D9;
+    color:white;
+    background-color: var(--text-hover-color);
 }
 
 .list-class {
